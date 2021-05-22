@@ -5,6 +5,9 @@ Note: This program is intended to be a joke.
 ## How It Works
 Just run it and it will ask you to input text. After you gave text the program will uwufy it.
 
+## Planned
+- If the input is completly empty, don't uwufy. (If theres no text)
+
 ## Setup
 To use/run this program, you need to go download and install the latest version of [Python](https://www.python.org/downloads/).
 
