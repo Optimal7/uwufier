@@ -17,9 +17,9 @@ while True:
     print("What wouwd you wike to uwufy?")
     uwu = input("> ")
 
-    #If there is no text (Not the best way to do it, don't know how to do it properly)
-    if len(uwu) == 0:
-        print("You nyeed to input text.")
+    #If there is no text
+    if not uwu.strip(): #Removes blank spaces
+        print("You nyeed to provide text.")
         print("-------------------------------")
         time.sleep(2)
 
